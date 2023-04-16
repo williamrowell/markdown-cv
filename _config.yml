@@ -1,2 +1,16 @@
-markdown:   kramdown
-style:  kjhealy
+plugins: ['jekyll/scholar']
+markdown: kramdown
+
+style: davewhipp
+
+scholar:
+  bibliography_template: bib
+  sort-by: year,month
+  style: _bibliography/apa-cv
+  replace_strings: false
+  bibtex_filters:
+  - latex
+  - markdown
+
+kramdown:
+  parse_block_html: true

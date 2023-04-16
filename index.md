@@ -1,91 +1,117 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Billy Rowell's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Billy Rowell ![Billy Rowell](/media/avatar.png){: style="float: left" width="5%" height="5%"}
+Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont, CA
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:me@williamrowell.dev"><i class="fa-solid fa-envelope"></i> me@williamrowell.dev</a> | <a href="williamrowell.dev"><i class="fa-solid fa-globe"></i> williamrowell.dev</a> | <a href="https://www.linkedin.com/in/williamrowell"><i class="fa-brands fa-linkedin"></i> williamrowell</a>
 </div>
 
+<div id="webaddress">
+<a href="https://github.com/williamrowell"><i class="fa-brands fa-github"></i> williamrowell</a> | <a href="https://genomic.social/@williamrowell"><i class="fa-brands fa-mastodon"></i> @williamrowell@genomic.social</a> | <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i> @nothingclever</a>
+</div>
 
-## Currently
+<div id="webaddress">
+<a href="https://orcid.org/0000-0002-7422-1194"><i class="ai ai-orcid-square"></i> 0000-0002-7422-1194</a> | <a href="https://scholar.google.com/citations?user=S8ixTQIAAAAJ"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> | <a href="https://www.biorxiv.org/search/author1%3AWilliam%2BJ%2BRowell"><i class="ai ai-biorxiv-square"></i> bioRxiv</a>
+</div>
 
-Standing on the shoulders of giants
+## Summary
 
-### Specialized in
+Collaborative biological data scientist with over 20 years of research experience, including 7 years in genomics. Currently focused on variant calling applications and workflows for highly accurate long-read sequencing data. Practical experience in genomics, human and model organism genetics, neurogenetics, and molecular biology.
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+## Skills
 
+### Computational
 
-### Research interests
+Python/NumPy/pandas/Matplotlib · Bash/Git · HPC/Slurm/SGE · BFX workflows · Snakemake/WDL · reproducible analysis · BWA/minimap2/ngmlr · GATK/DeepVariant/WhatsHap · samtools/bedtools/bcftools · hifasm/gfatools · image acquisition and analysis
+  
+### Scientific
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+sequence QC · NGS/long-read sequencing · WGS/WES/targeted sequencing · RNA-Seq/Iso-Seq · model organism genetics · human genetics · experimental design · high-throughput logistics
 
+### Professional
+
+mentor and team leader · collaborative scientist · strong problem solver · effective communication · translates between disciplines · technical trainer · extensive customer-facing experience
+
+## Experience
+
+### Sr. Staff Bioinformatics Scientist
+`2017 - Present`
+__[Pacific Biosciences](https://www.pacb.com)__ *Menlo Park, CA*
+
+- Through internal and external collaborations, guided the development and improvement of variant detection and phasing applications
+- Worked with NIST Genome in a Bottle consortium to improve human variant calling benchmarks
+- Developed workflows for variant calling, filtering, annotation, and prioritization for rare and inherited disease studies
+- Support customers and collaborators by applying analysis workflows to their data, resulting in publications
+- Support commercial teams by turning pilot experiments into instrument sales or marketing collateral
+- Lead a small team focused on developing, improving, and applying analysis workflows and characterizing data
+
+### Scientific Programmer
+`2015 - 2017`
+__[Q2 Solutions | EA Genomics](https://www.q2labsolutions.com/)__ *Durham, NC*
+
+- Responsible for analyzing and delivering NGS sequence data for hundreds of samples to customers each month
+- Processed NGS data with standard WGS, WES, and RNA-seq analysis pipelines
+- Monitored sequence quality and determined root cause of problems
+- Delivered data in a timely manner to meet customer expectations
+- Guided the development of delivery and analysis pipeline enhancements
+- In a rapidly expanding team, developed tools for tracking tasks and errors
+- Recognized for providing exceptional customer service
+
+### Research Specialist
+`2010 - 2015`
+__[HHMI](https://hhmi.org), [Janelia Research Campus](http://janelia.org)__ *Ashburn, VA*
+
+- Supported the research of the project teams and labs at Janelia by providing consultation, conducting experiments, analyzing data, and writing software
+- Screened *D. melanogaster* lines through high-throughput locomotor, optomotor, phototaxis, and olfactory assays
+- Acted as liaison and translator between scientists, software engineers, and electrical engineers
+- Wrote custom tools in python for analysis of activity/sleep data and fluorescence imagery analysis
+- Curated and analyzed data and metadata
+- Aided in design of novel behavioral assays, including instrument design and testing, protocol refinement, and data analysis tools in python and MATLAB
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
-
-## Awards
-
 `2012`
-President, *Royal Society*, London, UK
+__University of California, Berkeley__
 
-Associate, *French Academy of Science*, Paris, France
+- MA in Molecular and Cell Biology
 
+`2002`
+__University of North Carolina at Chapel Hill__
 
+- BS Biology, Chemistry minor
 
 ## Publications
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+### Journal Articles
 
-### Journals
+{% bibliography --file publications %}
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+### Preprints
 
-`1669`
-Lectiones opticæ.
+{% bibliography --file preprints %}
 
-etc. etc. etc.
+### Presentations
 
-### Patents
+{% bibliography --file presentations %}
+
+### Posters
+
+{% bibliography --file posters %}
+
+## Professional Training
+
+`2016`
+Lean Six Sigma Yellow Belt Training, *Q2 Solutions | EA Genomics*, Durham, NC
+
+`2013`
+Software Carpentry Instructor Training, [*The Carpentries*](https://carpentries.org)
 
 `2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
+High Functioning Leadership Program, *HHMI Janelia Research Campus*, Ashburn, VA
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
-
-
+Last updated: April 2023 -->

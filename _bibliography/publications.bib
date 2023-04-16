@@ -1,0 +1,547 @@
+@article{Baid2022NatBiotech,
+  title        = {DeepConsensus improves the accuracy of sequences with a gap-aware sequence transformer},
+  author       = {
+    Baid, Gunjan and Cook, Daniel E. and Shafin, Kishwar and Yun, Taedong and
+    Llinares-L{\'o}pez, Felipe and Berthet, Quentin and Belyaeva, Anastasiya
+    and T{\"o}pfer, Armin and Wenger, Aaron M. and Rowell, William J. and Yang,
+    Howard and Kolesnikov, Alexey and Ammar, Waleed and Vert, Jean-Philippe and
+    Vaswani, Ashish and McLean, Cory Y. and Nattestad, Maria and Chang,
+    Pi-Chuan and Carroll, Andrew
+  },
+  year         = 2022,
+  month        = {Sep},
+  day          = {01},
+  journal      = {Nature Biotechnology},
+  doi          = {10.1038/s41587-022-01435-7},
+  issn         = {1546-1696},
+  url          = {https://doi.org/10.1038/s41587-022-01435-7},
+  abstract     = {
+    Circular consensus sequencing with Pacific Biosciences (PacBio) technology
+    generates long (10--25{\thinspace}kilobases), accurate `HiFi' reads by
+    combining serial observations of a DNA molecule into a consensus sequence.
+    The standard approach to consensus generation, pbccs, uses a hidden Markov
+    model. We introduce DeepConsensus, which uses an alignment-based loss to
+    train a gap-aware transformer--encoder for sequence correction. Compared to
+    pbccs, DeepConsensus reduces read errors by 42{\%}. This increases the
+    yield of PacBio HiFi reads at Q20 by 9{\%}, at Q30 by 27{\%} and at Q40 by
+    90{\%}. With two SMRT Cells of HG003, reads from DeepConsensus improve
+    hifiasm assembly contiguity (NG50 4.9{\thinspace}megabases (Mb) to
+    17.2{\thinspace}Mb), increase gene completeness (94{\%} to 97{\%}), reduce
+    the false gene duplication rate (1.1{\%} to 0.5{\%}), improve assembly base
+    accuracy (Q43 to Q45) and reduce variant-calling errors by 24{\%}.
+    DeepConsensus models could be trained to the general problem of analyzing
+    the alignment of other types of sequences, such as unique molecular
+    identifiers or genome assemblies.
+  }
+}
+,
+@article{Wagner2022CellGenom,
+  title        = {Benchmarking challenging small variants with linked and long reads},
+  author       = {
+    Justin Wagner and Nathan D. Olson and Lindsay Harris and Ziad Khan and
+    Jesse Farek and Medhat Mahmoud and Ana Stankovic and Vladimir Kovacevic and
+    Byunggil Yoo and Neil Miller and Jeffrey A. Rosenfeld and Bohan Ni and
+    Samantha Zarate and Melanie Kirsche and Sergey Aganezov and Michael C.
+    Schatz and Giuseppe Narzisi and Marta Byrska-Bishop and Wayne Clarke and
+    Uday S. Evani and Charles Markello and Kishwar Shafin and Xin Zhou and
+    Arend Sidow and Vikas Bansal and Peter Ebert and Tobias Marschall and Peter
+    Lansdorp and Vincent Hanlon and Carl-Adam Mattsson and Alvaro Martinez
+    Barrio and Ian T. Fiddes and Chunlin Xiao and Arkarachai Fungtammasan and
+    Chen-Shan Chin and Aaron M. Wenger and William J. Rowell and Fritz J.
+    Sedlazeck and Andrew Carroll and Marc Salit and Justin M. Zook
+  },
+  year         = 2022,
+  journal      = {Cell Genomics},
+  volume       = 2,
+  number       = 5,
+  pages        = 100128,
+  doi          = {10.1016/j.xgen.2022.100128},
+  issn         = {2666-979X},
+  url          = {https://www.sciencedirect.com/science/article/pii/S2666979X2200057X},
+  keywords     = {
+    genomics, variant calling, benchmarking, reference materials, segmental
+    duplications, MHC
+  },
+  abstract     = {
+    Summary Genome in a Bottle benchmarks are widely used to help validate
+    clinical sequencing pipelines and develop variant calling and sequencing
+    methods. Here we use accurate linked and long reads to expand benchmarks in
+    7 samples to include difficult-to-map regions and segmental duplications
+    that are challenging for short reads. These benchmarks add more than
+    300,000 SNVs and 50,000 insertions or deletions (indels) and include 16%
+    more exonic variants, many in challenging, clinically relevant genes not
+    covered previously, such as PMS2. For HG002, we include 92% of the
+    autosomal GRCh38 assembly while excluding regions problematic for
+    benchmarking small variants, such as copy number variants, that should not
+    have been in the previous version, which included 85% of GRCh38. It
+    identifies eight times more false negatives in a short read variant call
+    set relative to our previous benchmark. We demonstrate that this benchmark
+    reliably identifies false positives and false negatives across
+    technologies, enabling ongoing methods development.
+  }
+}
+,
+@article{Mehinovic2022AJMGa,
+  title        = {Germline mosaicism of a missense variant in KCNC2 in a multiplex family with autism and epilepsy characterized by long-read sequencing},
+  author       = {
+    Mehinovic, Elvisa and Gray, Teddi and Campbell, Meghan and Ekholm, Jenny
+    and Wenger, Aaron and Rowell, William and Grudo, Ari and Grimwood, Jane and
+    Korlach, Jonas and Gurnett, Christina and Constantino, John N. and Turner,
+    Tychele N.
+  },
+  year         = 2022,
+  journal      = {American Journal of Medical Genetics Part A},
+  volume       = 188,
+  number       = 7,
+  pages        = {2071--2081},
+  doi          = {10.1002/ajmg.a.62743},
+  url          = {https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.62743},
+  keywords     = {autism, channel, epilepsy, genetics, genomics, long-read sequencing},
+  eprint       = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/ajmg.a.62743},
+  abstract     = {
+    Abstract Currently, protein-coding de novo variants and large copy number
+    variants have been identified as important for ~30\% of individuals with
+    autism. One approach to identify relevant variation in individuals who lack
+    these types of events is by utilizing newer genomic technologies. In this
+    study, highly accurate PacBio HiFi long-read sequencing was applied to a
+    family with autism, epileptic encephalopathy, cognitive impairment, and
+    mild dysmorphic features (two affected female siblings, unaffected parents,
+    and one unaffected male sibling) with no known clinical variant. From our
+    long-read sequencing data, a de novo missense variant in the KCNC2 gene
+    (encodes Kv3.2) was identified in both affected children. This variant was
+    phased to the paternal chromosome of origin and is likely a germline
+    mosaic. In silico assessment revealed the variant was not in controls,
+    highly conserved, and predicted damaging. This specific missense variant
+    (Val473Ala) has been shown in both an ortholog and paralog of Kv3.2 to
+    accelerate current decay, shift the voltage dependence of activation, and
+    prevent the channel from entering a long-lasting open state. Seven
+    additional missense variants have been identified in other individuals with
+    neurodevelopmental disorders (p = 1.03 × 10−5). KCNC2 is most highly
+    expressed in the brain; in particular, in the thalamus and is enriched in
+    GABAergic neurons. Long-read sequencing was useful in discovering the
+    relevant variant in this family with autism that had remained a mystery for
+    several years and will potentially have great benefits in the clinic once
+    it is widely available.
+  }
+}
+,
+@article{Cohen2022GenetMed,
+  title        = {Genomic answers for children: Dynamic analyses of {\&}gt;1000 pediatric rare disease genomes},
+  author       = {
+    Cohen, Ana S.A. and Farrow, Emily G. and Abdelmoity, Ahmed T. and Alaimo,
+    Joseph T. and Amudhavalli, Shivarajan M. and Anderson, John T. and Bansal,
+    Lalit and Bartik, Lauren and Baybayan, Primo and Belden, Bradley and
+    Berrios, Courtney D. and Biswell, Rebecca L. and Buczkowicz, Pawel and
+    Buske, Orion and Chakraborty, Shreyasee and Cheung, Warren A. and Coffman,
+    Keith A. and Cooper, Ashley M. and Cross, Laura A. and Curran, Tom and
+    Dang, Thuy Tien T. and Elfrink, Mary M. and Engleman, Kendra L. and Fecske,
+    Erin D. and Fieser, Cynthia and Fitzgerald, Keely and Fleming, Emily A. and
+    Gadea, Randi N. and Gannon, Jennifer L. and Gelineau-Morel, Rose N. and
+    Gibson, Margaret and Goldstein, Jeffrey and Grundberg, Elin and Halpin,
+    Kelsee and Harvey, Brian S. and Heese, Bryce A. and Hein, Wendy and Herd,
+    Suzanne M. and Hughes, Susan S. and Ilyas, Mohammed and Jacobson, Jill and
+    Jenkins, Janda L. and Jiang, Shao and Johnston, Jeffrey J. and Keeler,
+    Kathryn and Korlach, Jonas and Kussmann, Jennifer and Lambert, Christine
+    and Lawson, Caitlin and Le Pichon, Jean-Baptiste and Leeder, James Steven
+    and Little, Vicki C. and Louiselle, Daniel A. and Lypka, Michael and
+    McDonald, Brittany D. and Miller, Neil and Modrcin, Ann and Nair,
+    Annapoorna and Neal, Shelby H. and Oermann, Christopher M. and Pacicca,
+    Donna M. and Pawar, Kailash and Posey, Nyshele L. and Price, Nigel and
+    Puckett, Laura M.B. and Quezada, Julio F. and Raje, Nikita and Rowell,
+    William J. and Rush, Eric T. and Sampath, Venkatesh and Saunders, Carol J.
+    and Schwager, Caitlin and Schwend, Richard M. and Shaffer, Elizabeth and
+    Smail, Craig and Soden, Sarah and Strenk, Meghan E. and Sullivan, Bonnie R.
+    and Sweeney, Brooke R. and Tam-Williams, Jade B. and Walter, Adam M. and
+    Welsh, Holly and Wenger, Aaron M. and Willig, Laurel K. and Yan, Yun and
+    Younger, Scott T. and Zhou, Dihong and Zion, Tricia N. and Thiffault,
+    Isabelle and Pastinen, Tomi
+  },
+  year         = 2022,
+  month        = {Jun},
+  day          = {01},
+  journal      = {Genetics in Medicine},
+  publisher    = {Elsevier},
+  volume       = 24,
+  number       = 6,
+  pages        = {1336--1348},
+  doi          = {10.1016/j.gim.2022.02.007},
+  issn         = {1098-3600},
+  url          = {https://doi.org/10.1016/j.gim.2022.02.007}
+}
+,
+@article{Wagner2022NatBiotech,
+  title        = {Curated variation benchmarks for challenging medically relevant autosomal genes},
+  author       = {
+    Wagner, Justin and Olson, Nathan D. and Harris, Lindsay and McDaniel,
+    Jennifer and Cheng, Haoyu and Fungtammasan, Arkarachai and Hwang, Yih-Chii
+    and Gupta, Richa and Wenger, Aaron M. and Rowell, William J. and Khan, Ziad
+    M. and Farek, Jesse and Zhu, Yiming and Pisupati, Aishwarya and Mahmoud,
+    Medhat and Xiao, Chunlin and Yoo, Byunggil and Sahraeian, Sayed Mohammad
+    Ebrahim and Miller, Danny E. and J{\'a}spez, David and Lorenzo-Salazar,
+    Jos{\'e} M. and Mu{\~{n}}oz-Barrera, Adri{\'a}n and Rubio-Rodr{\'i}guez,
+    Luis A. and Flores, Carlos and Narzisi, Giuseppe and Evani, Uday Shanker
+    and Clarke, Wayne E. and Lee, Joyce and Mason, Christopher E. and Lincoln,
+    Stephen E. and Miga, Karen H. and Ebbert, Mark T. W. and Shumate, Alaina
+    and Li, Heng and Chin, Chen-Shan and Zook, Justin M. and Sedlazeck, Fritz
+    J.
+  },
+  year         = 2022,
+  month        = {May},
+  day          = {01},
+  journal      = {Nature Biotechnology},
+  volume       = 40,
+  number       = 5,
+  pages        = {672--680},
+  doi          = {10.1038/s41587-021-01158-1},
+  issn         = {1546-1696},
+  url          = {https://doi.org/10.1038/s41587-021-01158-1},
+  abstract     = {
+    The repetitive nature and complexity of some medically relevant genes poses
+    a challenge for their accurate analysis in a clinical setting. The Genome
+    in a Bottle Consortium has provided variant benchmark sets, but these
+    exclude nearly 400 medically relevant genes due to their repetitiveness or
+    polymorphic complexity. Here, we characterize 273 of these 395 challenging
+    autosomal genes using a haplotype-resolved whole-genome assembly. This
+    curated benchmark reports over 17,000 single-nucleotide variations, 3,600
+    insertions and deletions and 200 structural variations each for human
+    genome reference GRCh37 and GRCh38 across HG002. We show that false
+    duplications in either GRCh37 or GRCh38 result in reference-specific,
+    missed variants for short- and long-read technologies in medically relevant
+    genes, including CBS, CRYAA and KCNE1. When masking these false
+    duplications, variant recall can improve from 8{\%} to 100{\%}. Forming
+    benchmarks from a haplotype-resolved whole-genome assembly may become a
+    prototype for future benchmarks covering the whole genome.
+  }
+}
+,
+@article{Namiki2022CurrBio,
+  title        = {A population of descending neurons that regulates the flight motor of <em>Drosophila</em>},
+  author       = {
+    Namiki, Shigehiro and Ros, Ivo G. and Morrow, Carmen and Rowell, William J.
+    and Card, Gwyneth M. and Korff, Wyatt and Dickinson, Michael H.
+  },
+  year         = 2022,
+  month        = {Mar},
+  day          = 14,
+  journal      = {Current Biology},
+  publisher    = {Elsevier},
+  volume       = 32,
+  number       = 5,
+  pages        = {1189--1196.e6},
+  doi          = {10.1016/j.cub.2022.01.008},
+  issn         = {0960-9822},
+  url          = {https://doi.org/10.1016/j.cub.2022.01.008}
+}
+,
+@article{Laine2021PLOSONE,
+  title        = {Alu element in the RNA binding motif protein, X-linked 2 (RBMX2) gene found to be linked to bipolar disorder},
+  author       = {
+    Laine, Pia AND Rowell, William J. AND Paulin, Lars AND Kujawa, Steve AND
+    Raterman, Denise AND Mayhew, George AND Wendt, Jennifer AND Burgess, Daniel
+    L. AND Partonen, Timo AND Paunio, Tiina AND Auvinen, Petri AND Ekholm,
+    Jenny M.
+  },
+  year         = 2021,
+  month        = 12,
+  journal      = {PLOS ONE},
+  publisher    = {Public Library of Science},
+  volume       = 16,
+  number       = 12,
+  pages        = {1--18},
+  doi          = {10.1371/journal.pone.0261170},
+  url          = {https://doi.org/10.1371/journal.pone.0261170},
+  abstract     = {
+    Objective We have used long-read single molecule, real-time (SMRT)
+    sequencing to fully characterize a ~12Mb genomic region on chromosome
+    Xq24-q27, significantly linked to bipolar disorder (BD) in an extended
+    family from a genetic sub-isolate. This family segregates BD in at least
+    four generations with 24 affected individuals.   Methods We selected 16
+    family members for targeted sequencing. The selected individuals either
+    carried the disease haplotype, were non-carriers of the disease haplotype,
+    or served as married-in controls. We designed hybrid capture probes
+    enriching for 5-9Kb fragments spanning the entire 12Mb region that were
+    then sequenced to screen for candidate structural variants (SVs) that could
+    explain the increased risk for BD in this extended family.   Results
+    Altogether, 201 variants were detected in the critically linked region.
+    Although most of these represented common variants, three variants emerged
+    that showed near-perfect segregation among all BD type I affected
+    individuals. Two of the SVs were identified in or near genes belonging to
+    the RNA Binding Motif Protein, X-Linked (RBMX) gene family—a 330bp Alu
+    (subfamily AluYa5) deletion in intron 3 of the RBMX2 gene and an intergenic
+    27bp tandem repeat deletion between the RBMX and G protein-coupled receptor
+    101 (GPR101) genes. The third SV was a 50bp tandem repeat insertion in
+    intron 1 of the Coagulation Factor IX (F9) gene.   Conclusions Among the
+    three genetically linked SVs, additional evidence supported the Alu element
+    deletion in RBMX2 as the leading candidate for contributing directly to the
+    disease development of BD type I in this extended family.
+  }
+}
+,
+@article{vanderLee2022PGxJ,
+  title        = {Application of long-read sequencing to elucidate complex pharmacogenomic regions: a proof of principle},
+  author       = {
+    van der Lee, Maaike and Rowell, William J. and Menafra, Roberta and
+    Guchelaar, Henk-Jan and Swen, Jesse J. and Anvar, Seyed Yahya
+  },
+  year         = 2022,
+  month        = {Feb},
+  day          = {01},
+  journal      = {The Pharmacogenomics Journal},
+  volume       = 22,
+  number       = 1,
+  pages        = {75--81},
+  doi          = {10.1038/s41397-021-00259-z},
+  issn         = {1473-1150},
+  url          = {https://doi.org/10.1038/s41397-021-00259-z},
+  abstract     = {
+    The use of pharmacogenomics in clinical practice is becoming standard of
+    care. However, due to the complex genetic makeup of pharmacogenes, not all
+    genetic variation is currently accounted for. Here, we show the utility of
+    long-read sequencing to resolve complex pharmacogenes by analyzing a
+    well-characterised sample. This data consists of long reads that were
+    processed to resolve phased haploblocks. 73{\%} of pharmacogenes were fully
+    covered in one phased haploblock, including 9/15 genes that are 100{\%}
+    complex. Variant calling accuracy in the pharmacogenes was high, with
+    99.8{\%} recall and 100{\%} precision for SNVs and 98.7{\%} precision and
+    98.0{\%} recall for Indels. For the majority of gene-drug interactions in
+    the DPWG and CPIC guidelines, the associated genes could be fully resolved
+    (62{\%} and 63{\%} respectively). Together, these findings suggest that
+    long-read sequencing data offers promising opportunities in elucidating
+    complex pharmacogenes and haplotype phasing while maintaining accurate
+    variant calling.
+  }
+}
+,
+@article{Chin2020NatComm,
+  title        = {A diploid assembly-based benchmark for variants in the major histocompatibility complex},
+  author       = {
+    Chin, Chen-Shan and Wagner, Justin and Zeng, Qiandong and Garrison, Erik
+    and Garg, Shilpa and Fungtammasan, Arkarachai and Rautiainen, Mikko and
+    Aganezov, Sergey and Kirsche, Melanie and Zarate, Samantha and Schatz,
+    Michael C. and Xiao, Chunlin and Rowell, William J. and Markello, Charles
+    and Farek, Jesse and Sedlazeck, Fritz J. and Bansal, Vikas and Yoo,
+    Byunggil and Miller, Neil and Zhou, Xin and Carroll, Andrew and Barrio,
+    Alvaro Martinez and Salit, Marc and Marschall, Tobias and Dilthey,
+    Alexander T. and Zook, Justin M.
+  },
+  year         = 2020,
+  month        = {Sep},
+  day          = 22,
+  journal      = {Nature Communications},
+  volume       = 11,
+  number       = 1,
+  pages        = 4794,
+  doi          = {10.1038/s41467-020-18564-9},
+  issn         = {2041-1723},
+  url          = {https://doi.org/10.1038/s41467-020-18564-9},
+  abstract     = {
+    Most human genomes are characterized by aligning individual reads to the
+    reference genome, but accurate long reads and linked reads now enable us to
+    construct accurate, phased de novo assemblies. We focus on a medically
+    important, highly variable, 5 million base-pair (bp) region where diploid
+    assembly is particularly useful - the Major Histocompatibility Complex
+    (MHC). Here, we develop a human genome benchmark derived from a diploid
+    assembly for the openly-consented Genome in a Bottle sample HG002. We
+    assemble a single contig for each haplotype, align them to the reference,
+    call phased small and structural variants, and define a small variant
+    benchmark for the MHC, covering 94{\%} of the MHC and 22368 variants
+    smaller than 50{\thinspace}bp, 49{\%} more variants than a mapping-based
+    benchmark. This benchmark reliably identifies errors in mapping-based
+    callsets, and enables performance assessment in regions with much denser,
+    complex variation than regions covered by previous benchmarks.
+  }
+}
+,
+@article{Cook2020PLOSONE,
+  title        = {Structural variation and its potential impact on genome instability: Novel discoveries in the EGFR landscape by long-read sequencing},
+  author       = {
+    Cook, George W. AND Benton, Michael G. AND Akerley, Wallace AND Mayhew,
+    George F. AND Moehlenkamp, Cynthia AND Raterman, Denise AND Burgess, Daniel
+    L. AND Rowell, William J. AND Lambert, Christine AND Eng, Kevin AND Gu,
+    Jenny AND Baybayan, Primo AND Fussell, John T. AND Herbold, Heath D. AND
+    O’Shea, John M. AND Varghese, Thomas K. AND Emerson, Lyska L.
+  },
+  year         = 2020,
+  month        = {01},
+  journal      = {PLOS ONE},
+  publisher    = {Public Library of Science},
+  volume       = 15,
+  number       = 1,
+  pages        = {1--21},
+  doi          = {10.1371/journal.pone.0226340},
+  url          = {https://doi.org/10.1371/journal.pone.0226340},
+  abstract     = {
+    Structural variation (SV) is typically defined as variation within the
+    human genome that exceeds 50 base pairs (bp). SV may be copy number neutral
+    or it may involve duplications, deletions, and complex rearrangements.
+    Recent studies have shown SV to be associated with many human diseases.
+    However, studies of SV have been challenging due to technological
+    constraints. With the advent of third generation (long-read) sequencing
+    technology, exploration of longer stretches of DNA not easily examined
+    previously has been made possible. In the present study, we utilized third
+    generation (long-read) sequencing techniques to examine SV in the EGFR
+    landscape of four haplotypes derived from two human samples. We analyzed
+    the EGFR gene and its landscape (+/- 500,000 base pairs) using this
+    approach and were able to identify a region of non-coding DNA with over 90%
+    similarity to the most common activating EGFR mutation in non-small cell
+    lung cancer. Based on previously published Alu-element genome instability
+    algorithms, we propose a molecular mechanism to explain how this non-coding
+    region of DNA may be interacting with and impacting the stability of the
+    EGFR gene and potentially generating this cancer-driver gene. By these
+    techniques, we were also able to identify previously hidden structural
+    variation in the four haplotypes and in the human reference genome (hg38).
+    We applied previously published algorithms to compare the relative
+    stabilities of these five different EGFR gene landscape haplotypes to
+    estimate their relative potentials to generate the EGFR exon 19, 15 bp
+    canonical deletion. To our knowledge, the present study is the first to use
+    the differences in genomic architecture between targeted cancer-linked
+    phased haplotypes to estimate their relative potentials to form a common
+    cancer-linked driver mutation.
+  }
+}
+,
+@article{Wenger2019NatBiotech,
+  title        = {Accurate circular consensus long-read sequencing improves variant detection and assembly of a human genome},
+  author       = {
+    Wenger, Aaron M. and Peluso, Paul and Rowell, William J. and Chang,
+    Pi-Chuan and Hall, Richard J. and Concepcion, Gregory T. and Ebler, Jana
+    and Fungtammasan, Arkarachai and Kolesnikov, Alexey and Olson, Nathan D.
+    and T{\"o}pfer, Armin and Alonge, Michael and Mahmoud, Medhat and Qian,
+    Yufeng and Chin, Chen-Shan and Phillippy, Adam M. and Schatz, Michael C.
+    and Myers, Gene and DePristo, Mark A. and Ruan, Jue and Marschall, Tobias
+    and Sedlazeck, Fritz J. and Zook, Justin M. and Li, Heng and Koren, Sergey
+    and Carroll, Andrew and Rank, David R. and Hunkapiller, Michael W.
+  },
+  year         = 2019,
+  month        = {Oct},
+  day          = {01},
+  journal      = {Nature Biotechnology},
+  volume       = 37,
+  number       = 10,
+  pages        = {1155--1162},
+  doi          = {10.1038/s41587-019-0217-9},
+  issn         = {1546-1696},
+  url          = {https://doi.org/10.1038/s41587-019-0217-9},
+  abstract     = {
+    The DNA sequencing technologies in use today produce either highly accurate
+    short reads or less-accurate long reads. We report the optimization of
+    circular consensus sequencing (CCS) to improve the accuracy of
+    single-molecule real-time (SMRT) sequencing (PacBio) and generate highly
+    accurate (99.8{\%}) long high-fidelity (HiFi) reads with an average length
+    of 13.5{\thinspace}kilobases (kb). We applied our approach to sequence the
+    well-characterized human HG002/NA24385 genome and obtained precision and
+    recall rates of at least 99.91{\%} for single-nucleotide variants (SNVs),
+    95.98{\%} for insertions and deletions <50 bp (indels) and 95.99{\%} for
+    structural variants. Our CCS method matches or exceeds the ability of
+    short-read sequencing to detect small variants and structural variants. We
+    estimate that 2,434 discordances are correctable mistakes in the `genome in
+    a bottle' (GIAB) benchmark set. Nearly all (99.64{\%}) variants can be
+    phased into haplotypes, further improving variant detection. De novo genome
+    assembly using CCS reads alone produced a contiguous and accurate genome
+    with a contig N50 of >15{\thinspace}megabases (Mb) and concordance of
+    99.997{\%}, substantially outperforming assembly with less-accurate long
+    reads.
+  }
+}
+,
+@article{Tseng2019FrontGene,
+  title        = {The Landscape of SNCA Transcripts Across Synucleinopathies: New Insights From Long Reads Sequencing Analysis},
+  author       = {
+    Tseng, Elizabeth and Rowell, William J. and Glenn, Omolara-Chinue and Hon,
+    Ting and Barrera, Julio and Kujawa, Steve and Chiba-Falek, Ornit
+  },
+  year         = 2019,
+  journal      = {Frontiers in Genetics},
+  volume       = 10,
+  doi          = {10.3389/fgene.2019.00584},
+  issn         = {1664-8021},
+  url          = {https://www.frontiersin.org/articles/10.3389/fgene.2019.00584},
+  abstract     = {
+    Dysregulation of alpha-synuclein expression has been implicated in the
+    pathogenesis of synucleinopathies, in particular Parkinson’s Disease (PD)
+    and Dementia with Lewy bodies (DLB). Previous studies have shown that the
+    alternatively spliced isoforms of the SNCA gene are differentially
+    expressed in different parts of the brain for PD and DLB patients.
+    Similarly, SNCA isoforms with skipped exons can have a functional impact on
+    the protein domains. The large intronic region of the SNCA gene was also
+    shown to harbor structural variants that affect transcriptional levels.
+    Here, we apply the first study of using long read sequencing with targeted
+    capture of both the gDNA and cDNA of the SNCA gene in brain tissues of PD,
+    DLB, and control samples using the PacBio Sequel system. The targeted
+    full-length cDNA (Iso-Seq) data confirmed complex usage of known
+    alternative start sites and variable 3′ UTR lengths, as well as novel 5′
+    starts and 3′ ends not previously described. The targeted gDNA data allowed
+    phasing of up to 81% of the ~114 kb SNCA region, with the longest phased
+    block exceeding 54 kb. We demonstrate that long gDNA and cDNA reads have
+    the potential to reveal long-range information not previously accessible
+    using traditional sequencing methods. This approach has a potential impact
+    in studying disease risk genes such as SNCA, providing new insights into
+    the genetic etiologies, including perturbations to the landscape the gene
+    transcripts, of human complex diseases such as synucleinopathies.
+  }
+}
+,
+@article{Aso2014eLife,
+  title        = {Mushroom body output neurons encode valence and guide memory-based action selection in \textit{Drosophila}},
+  author       = {
+    Aso, Yoshinori and Sitaraman, Divya and Ichinose, Toshiharu and Kaun, Karla
+    R and Vogt, Katrin and Belliart-Guérin, Ghislain and Plaçais, Pierre-Yves
+    and Robie, Alice A and Yamagata, Nobuhiro and Schnaitmann, Christopher and
+    Rowell, William J and Johnston, Rebecca M and Ngo, Teri-T B and Chen, Nan
+    and Korff, Wyatt and Nitabach, Michael N and Heberlein, Ulrike and Preat,
+    Thomas and Branson, Kristin M and Tanimoto, Hiromu and Rubin, Gerald M
+  },
+  year         = 2014,
+  month        = {dec},
+  journal      = {eLife},
+  publisher    = {eLife Sciences Publications, Ltd},
+  volume       = 3,
+  pages        = {e04580},
+  doi          = {10.7554/eLife.04580},
+  issn         = {2050-084X},
+  url          = {https://doi.org/10.7554/eLife.04580},
+  article_type = {journal},
+  editor       = {Luo, Liqun},
+  pub_date     = {2014-12-23},
+  citation     = {eLife 2014;3:e04580},
+  abstract     = {
+    Animals discriminate stimuli, learn their predictive value and use this
+    knowledge to modify their behavior. In \textit{Drosophila}, the mushroom
+    body (MB) plays a key role in these processes. Sensory stimuli are sparsely
+    represented by ∼2000 Kenyon cells, which converge onto 34 output neurons
+    (MBONs) of 21 types. We studied the role of MBONs in several associative
+    learning tasks and in sleep regulation, revealing the extent to which
+    information flow is segregated into distinct channels and suggesting
+    possible roles for the multi-layered MBON network. We also show that
+    optogenetic activation of MBONs can, depending on cell type, induce
+    repulsion or attraction in flies. The behavioral effects of MBON
+    perturbation are combinatorial, suggesting that the MBON ensemble
+    collectively represents valence. We propose that local, stimulus-specific
+    dopaminergic modulation selectively alters the balance within the MBON
+    network for those stimuli. Our results suggest that valence encoded by the
+    MBON ensemble biases memory-based action selection.
+  },
+  keywords     = {
+    mushroom body, memory, behavioral valence, sleep, population code, action
+    selection
+  }
+}
+,
+@article{Senger2004MolCell,
+  title        = {Immunity Regulatory DNAs Share Common Organizational Features in <em>Drosophila</em>},
+  author       = {
+    Senger, Kate and Armstrong, Grant W. and Rowell, William J. and Kwan,
+    Jennifer M. and Markstein, Michele and Levine, Michael
+  },
+  year         = 2004,
+  month        = {Jan},
+  day          = 16,
+  journal      = {Molecular Cell},
+  publisher    = {Elsevier},
+  volume       = 13,
+  number       = 1,
+  pages        = {19--32},
+  doi          = {10.1016/S1097-2765(03)00500-8},
+  issn         = {1097-2765},
+  url          = {https://doi.org/10.1016/S1097-2765(03)00500-8}
+}
