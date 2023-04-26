@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Billy Rowell's CV
+title: Billy Rowell
 ---
 # Billy Rowell ![Billy Rowell](/media/avatar.png){: style="float: left" width="5%" height="5%"}
 Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont, CA
@@ -16,6 +16,8 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 <div id="webaddress">
 <a href="https://orcid.org/0000-0002-7422-1194"><i class="ai ai-orcid-square"></i> 0000-0002-7422-1194</a> | <a href="https://scholar.google.com/citations?user=S8ixTQIAAAAJ"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> | <a href="https://www.biorxiv.org/search/author1%3AWilliam%2BJ%2BRowell"><i class="ai ai-biorxiv-square"></i> bioRxiv</a>
 </div>
+
+<p hidden>proven.lol/be04c7</p>
 
 ## Summary
 
