@@ -5,7 +5,8 @@ style: davewhipp
 
 scholar:
   bibliography_template: bib
-  sort-by: year,month
+  sort_by: year,month
+  order: descending
   style: _bibliography/apa-cv
   replace_strings: false
   bibtex_filters:
