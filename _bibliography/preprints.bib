@@ -507,3 +507,15 @@
 	},
 	eprint       = {https://www.biorxiv.org/content/early/2021/10/06/2020.07.24.212712.full.pdf}
 },
+@article {Holt2023.05.03.539241,
+	author = {James M. Holt and Christopher T. Saunders and William J. Rowell and Zev Kronenberg and Aaron M. Wenger and Michael Eberle},
+	title = {HiPhase: Jointly phasing small and structural variants from HiFi sequencing},
+	elocation-id = {2023.05.03.539241},
+	year = {2023},
+	doi = {10.1101/2023.05.03.539241},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Background In diploid organisms, phasing is the problem of assigning the heterozygous variants to one of two haplotypes. Reads from PacBio HiFi sequencing provide long, accurate observations that can be used as the basis for both calling and phasing variants. HiFi reads also excel at calling larger classes of variation such as structural variants. However, current phasing tools typically only phase small variants, leaving larger structural variants unphased.Methods We developed HiPhase, a tool that jointly phases SNVs, indels, and structural variants. The main benefits of HiPhase are 1) dual mode allele assignment for detecting structural variants, 2) a novel application of the A*-algorithm to phasing, and 3) logic allowing phase blocks to span breaks caused by alignment issues around reference gaps and homozygous deletions.Results In our assessment, HiPhase produced an average phase block NG50 of 493 kb with 933 switchflip errors and fully phased 95.2\% of genes, improving over the current state of the art. Additionally, HiPhase jointly phases SNVs, indels, and structural variants and includes innate multi-threading, statistics gathering, and concurrent phased alignment output generation.Availability https://github.com/PacificBiosciences/HiPhaseCompeting Interest StatementAll authors are current employees of PacBio.},
+	URL = {https://www.biorxiv.org/content/early/2023/05/04/2023.05.03.539241},
+	eprint = {https://www.biorxiv.org/content/early/2023/05/04/2023.05.03.539241.full.pdf},
+	journal = {bioRxiv}
+}
