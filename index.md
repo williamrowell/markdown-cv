@@ -21,7 +21,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 
 ## Summary
 
-Collaborative biological data scientist with over 20 years of research experience, including 7 years in genomics. Currently focused on variant calling applications and workflows for highly accurate long-read sequencing data. Practical experience in genomics, human and model organism genetics, neurogenetics, and molecular biology.
+Collaborative biological data scientist with over 20 years of research experience, including 8 years in genomics. Currently focused on variant calling applications and workflows for highly accurate long-read sequencing data. Practical experience in genomics, human and model organism genetics, neurogenetics, and molecular biology.
 
 ## Skills
 
