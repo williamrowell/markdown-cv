@@ -21,7 +21,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 
 ## Summary
 
-Collaborative biological data scientist with over 20 years of research experience, including 8 years in genomics. Currently focused on variant calling applications and workflows for highly accurate long-read sequencing data. Practical experience in genomics, human and model organism genetics, neurogenetics, and molecular biology.
+Collaborative biological data scientist with over 20 years of research experience, including 8 years in genomics. Currently focused on variant calling applications and workflows for highly accurate long-read sequencing data. Practical experience in genomics, human and model organism genetics, behavioral genetics, and molecular biology.
 
 ## Skills
 
@@ -43,12 +43,12 @@ mentor and team leader · collaborative scientist · strong problem solver · ef
 `2017 - Present`
 __[Pacific Biosciences](https://www.pacb.com)__ *Menlo Park, CA*
 
-- Through internal and external collaborations, guided the development and improvement of variant detection and phasing applications
+- Through internal and external collaborations, guided the development and improvement of variant detection applications
 - Worked with NIST Genome in a Bottle consortium to improve human variant calling benchmarks
 - Developed workflows for variant calling, filtering, annotation, and prioritization for rare and inherited disease studies
 - Support customers and collaborators by applying analysis workflows to their data, resulting in publications
-- Support commercial teams by turning pilot experiments into instrument sales or marketing collateral
-- Lead a small team focused on developing, improving, and applying analysis workflows and characterizing data
+- Support commercial teams by leveraging pilot experiments into instrument sales and marketing collateral
+- Lead a small team focused on developing, improving, and applying analysis workflows and characterizing genomics data
 
 ### Scientific Programmer
 `2015 - 2017`
@@ -116,4 +116,4 @@ High Functioning Leadership Program, *HHMI Janelia Research Campus*, Ashburn, VA
 
 <!-- ### Footer
 
-Last updated: April 2023 -->
+Last updated: November 2023 -->
