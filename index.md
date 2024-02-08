@@ -10,7 +10,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 </div>
 
 <div id="webaddress">
-<a href="https://github.com/williamrowell"><i class="fa-brands fa-github"></i> williamrowell</a> | <a href="https://genomic.social/@williamrowell" rel="me" ><i class="fa-brands fa-mastodon"></i> @williamrowell@genomic.social</a> | <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i> @nothingclever</a>
+<a href="https://github.com/williamrowell"><i class="fa-brands fa-github"></i> williamrowell</a> | <a href="https://genomic.social/@williamrowell" rel="me" ><i class="fa-brands fa-mastodon"></i> @williamrowell@genomic.social</a> | <a href="https://twitter.com/nothingclever"><i class="fa-brands fa-twitter"></i> @nothingclever</a>
 </div>
 
 <div id="webaddress">
