@@ -21,17 +21,17 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 
 ## Summary
 
-Collaborative biological data scientist with over 20 years of research experience, including 8 years in genomics. Currently focused on variant calling applications and workflows for highly accurate long-read sequencing data. Practical experience in genomics, human and model organism genetics, behavioral genetics, and molecular biology.
+Collaborative biological data scientist with over 20 years of research experience, including 8 years in genomics. Currently focused on variant calling applications and analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
 
 ## Skills
 
 ### Computational
 
-Python/NumPy/pandas/Matplotlib · Bash/Git · HPC/Slurm/SGE · BFX workflows · Snakemake/WDL · reproducible analysis · BWA/minimap2/ngmlr · GATK/DeepVariant/WhatsHap · samtools/bedtools/bcftools · hifasm/gfatools · image acquisition and analysis
-  
+Python/NumPy/pandas/Matplotlib · Bash/Git · HPC/Slurm/SGE · BFX workflows · WDL/Snakemake · reproducible analysis · BWA/minimap2/ngmlr · GATK/DeepVariant/WhatsHap · samtools/bedtools/bcftools · hifasm/gfatools · image acquisition and analysis
+
 ### Scientific
 
-sequence QC · NGS/long-read sequencing · WGS/WES/targeted sequencing · RNA-Seq/Iso-Seq · model organism genetics · human genetics · experimental design · high-throughput logistics
+sequence QC · NGS/long-read sequencing · WGS/WES/targeted sequencing · RNA-Seq/Iso-Seq · model organism genetics · human genetics · rare disease research · experimental design · high-throughput logistics
 
 ### Professional
 
@@ -69,7 +69,7 @@ __[HHMI](https://hhmi.org), [Janelia Research Campus](http://janelia.org)__ *Ash
 - Supported the research of the project teams and labs at Janelia by providing consultation, conducting experiments, analyzing data, and writing software
 - Screened *D. melanogaster* lines through high-throughput locomotor, optomotor, phototaxis, and olfactory assays
 - Acted as liaison and translator between scientists, software engineers, and electrical engineers
-- Wrote custom tools in python for analysis of activity/sleep data and fluorescence imagery analysis
+- Wrote custom tools for analysis of activity/sleep data and fluorescence imagery analysis
 - Curated and analyzed data and metadata
 - Aided in design of novel behavioral assays, including instrument design and testing, protocol refinement, and data analysis tools in python and MATLAB
 
@@ -114,6 +114,15 @@ Software Carpentry Instructor Training, [*The Carpentries*](https://carpentries.
 `2012`
 High Functioning Leadership Program, *HHMI Janelia Research Campus*, Ashburn, VA
 
+## Languages
+
+- English (native)
+- Spanish (conversational, but rusty)
+
+## References
+
+_Available upon request._
+
 <!-- ### Footer
 
-Last updated: November 2023 -->
+Last updated: April 2024 -->
