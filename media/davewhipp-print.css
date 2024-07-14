@@ -51,7 +51,7 @@ table {
 body {
 	font: normal normal 400;
 	font-size: 10pt;
-	line-height: 1.35em;
+	line-height: 1.25em;
 	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir,Verdana,sans-serif;
 	/*margin-top: 1em;
@@ -61,23 +61,24 @@ body {
 p {
 	position: relative;
 	left: 25%;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.2em;
 	margin-right: 0;
-	width: 55%;
+	width: 65%;
 }
 
 code {
 	font: normal normal;
-	font-size: 90%;
+	font-size: 100%;
 	/*line-height: 1em;*/
-	font-family: Monaco,Menlo,monospace,sans-serif;
+	/* font-family: Monaco,Menlo,monospace,sans-serif; */
 	color: #ccc;
 }
 
 p code {
+	font: normal normal;
 	position: absolute;
 	text-align: right;
-	right: -20%;
+	right: 0%;
 }
 
 ul {
@@ -131,10 +132,11 @@ h1+p {
 
 h2 {
 	font-size: 1.1em;
+	line-height: 2em;
 	color: #4B9CD3;
-	margin-top: 2em;
+	/* margin-top: 1em; */
 	position: relative;
-	top: 1.2em;
+	top: 1.6em;
 	text-align: right;
 	width: 20%;
 }
@@ -166,13 +168,17 @@ a:hover {
 	color:#39f
 }
 
+#webaddress {
+	bottom: 1.6em;
+}
+
 #webaddress ul {
 	margin-top: 1em;
 	position: relative;
 	left: 25%;
 	color: #ccc;
 	font-family: Monaco,Menlo,monospace,sans-serif;
-	font-size: 80%;
+	font-size: 100%;
 }
 
 #webaddress a {
@@ -180,6 +186,10 @@ a:hover {
 }
 
 em {
+	font-style: italic;
+}
+
+i {
 	font-style: italic;
 }
 
@@ -193,6 +203,31 @@ img {
 }
 
 #ghbutton {
+	display: none;
+	visibility: hidden;
+}
+
+.bibliography {
+	display: none;
+	visibility: hidden;
+}
+
+#peer-reviewed {
+	display: none;
+	visibility: hidden;
+}
+
+#preprints {
+	display: none;
+	visibility: hidden;
+}
+
+#posters {
+	display: none;
+	visibility: hidden;
+}
+
+#presentations {
 	display: none;
 	visibility: hidden;
 }
