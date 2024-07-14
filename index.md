@@ -18,7 +18,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 
 ## Summary
 
-Collaborative biological data scientist with over 20 years of research experience, including 8 years in genomics. Currently focused on variant calling applications and analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
+Collaborative biological data scientist with over 20 years of research experience, including 9 years in genomics. Currently focused on variant calling applications and analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
 
 ## Skills
 
@@ -28,7 +28,7 @@ NGS/long-read sequencing and QC · WGS/WES/targeted sequencing · NGS/long-read 
 
 ### Computational
 
-reproducible analysis with WDL/Snakemake · Python/NumPy/pandas/Matplotlib · HPC/Slurm · Bash/Git · samtools/bedtools/bcftools · image acquisition and analysis
+reproducible analysis with WDL/Snakemake · containerization with Docker/Singularity · Python/NumPy/pandas/Matplotlib · HPC/Slurm · Bash/Git · samtools/bedtools/bcftools · image acquisition and analysis
 
 ### Professional
 
@@ -107,13 +107,13 @@ Find a full list of publications, preprints, posters, and presentations at <a hr
 ## Professional Training
 
 `2016`
-Lean Six Sigma Yellow Belt Training, *Q2 Solutions | EA Genomics*, Durham, NC
+Lean Six Sigma Yellow Belt Training, *Q2 Solutions | EA Genomics*
 
 `2013`
 Software Carpentry Instructor Training, [*The Carpentries*](https://carpentries.org)
 
 `2012`
-High Functioning Leadership Program, *HHMI Janelia Research Campus*, Ashburn, VA
+High Functioning Leadership Program, *HHMI Janelia Research Campus*
 
 ## Languages
 
