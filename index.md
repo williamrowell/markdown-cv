@@ -36,15 +36,19 @@ mentor and team leader · collaborative scientist · strong problem solver · ef
 
 ## Experience
 
-### Sr. Staff Bioinformatics Scientist
+### Bioinformatics Scientist
 
 `February 2017 - Present`
 __[Pacific Biosciences](https://www.pacb.com)__, *Menlo Park, CA*
 
+Senior Staff Bioinformatics Scientist, *June 2022 - Present*<br/>
+Staff Bioinformatics Scientist, *March 2020 - May 2022*<br/>
+Senior Bioinformatics Scientist, *February 2017 - February 2020*<br/>
+
 - Lead a small team focused on developing, improving, and applying analysis workflows to characterize genomics data.
 - Developed and released HPC/multi-cloud workflows for variant calling, filtering, annotation, and prioritization for rare and inherited disease studies ([HiFi-human-WGS-WDL](https://github.com/PacificBiosciences/HiFi-human-WGS-WDL), [pb-human-wgs-workflow-snakemake](https://github.com/PacificBiosciences/pb-human-wgs-workflow-snakemake), [HiFi-human-assembly-WDL](https://github.com/PacificBiosciences/HiFi-human-assembly-WDL)).
 - Worked alongside customers to apply long-read sequencing to rare disease research and identify candidate variation {% cite DelGobbo2023AJMGa --file publications %}, {% cite Mehinovic2022AJMGa --file publications %}, {% cite Cohen2022GenetMed --file publications %}, {% cite Laine2021PLOSONE --file publications %}, {% cite Cook2020PLOSONE --file publications %}, {% cite Tseng2019FrontGene --file publications %}, {% cite Cheung2022medRxiv --file preprints %}, {% cite Kucuk2023GenomMed --file publications %}.
-- Worked within the [NIST Genome in a Bottle consortium](https://www.nist.gov/programs-projects/genome-bottle) to improve human variant calling benchmarks {% cite Wagner2022NatBiotech --file publications %}, including in MHC {% cite Chin2020NatComm --file publications %}, and other challenging medically relevant regions {% cite Wagner2022CellGenom --file publications %}.
+- Worked with academic collaborators and within the [NIST Genome in a Bottle consortium](https://www.nist.gov/programs-projects/genome-bottle) to improve human variant calling benchmarks {% cite Porubsky2024bioRxiv --file preprints.bib %}, {% cite Wagner2022NatBiotech --file publications %}, including in MHC {% cite Chin2020NatComm --file publications %}, and other challenging medically relevant regions {% cite Wagner2022CellGenom --file publications %}.
 - Through collaborations, guided the development and improvement of tools and applications for long-read sequencing data, e.g., HiFi WGS {% cite Wenger2019NatBiotech --file publications %}, TRGT {% cite Dolzhenko2024NatBiotech --file publications %}, HiPhase {% cite Holt2024Bioinformatics --file publications %}, DeepConsensus {% cite Baid2022NatBiotech --file publications %}, {% cite Belyaeva2022NeurIPS --file preprints %},  DNAscope LongRead {% cite Freed2022bioRxiv --file preprints %}, and PGx analysis {% cite vanderLee2022PGxJ --file publications %}.
 - Support commercial teams by leveraging pilot experiments into sales and collateral.
 - Present research at conferences or in webinars ([presentations](#presentations), [posters](#posters)), and train customers and internal teams on analysis workflows.
@@ -66,6 +70,10 @@ __[Q2 Solutions | EA Genomics](https://www.q2labsolutions.com/)__, *Durham, NC*
 `March 2010 - September 2015`
 __[HHMI](https://hhmi.org), [Janelia Research Campus](http://janelia.org)__, *Ashburn, VA*
 
+Research Specialist, *September 2013 - September 2015*<br/>
+Research Technician III, *September 2011 - August 2013*<br/>
+Research Technician II, *March 2010 - August 2011*<br/>
+
 - Supported labs and project teams by providing consultation, conducting experiments, analyzing data, and writing software.
 - Acted as liaison and translator between scientists, software engineers, and electrical engineers.
 - Screened *D. melanogaster* lines through high-throughput locomotor, optomotor, phototaxis, flight, and olfactory assays {% cite Aso2014eLife --file publications %}, {% cite Isaacson2023bioRxiv --file preprints %}, {% cite Namiki2022CurrBio --file publications %}.
@@ -75,12 +83,12 @@ __[HHMI](https://hhmi.org), [Janelia Research Campus](http://janelia.org)__, *As
 ## Education
 
 `2012`
-__University of California, Berkeley__
-MA in Molecular and Cell Biology
+__[University of California, Berkeley](https://berkeley.edu)__
+MA in [Molecular and Cell Biology](https://mcb.berkeley.edu)
 
 `2002`
-__University of North Carolina at Chapel Hill__
-BS Biology, Chemistry minor
+__[University of North Carolina at Chapel Hill](https://unc.edu)__
+BS [Biology](https://bio.unc.edu), Chemistry minor
 
 ## Publications
 
