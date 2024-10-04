@@ -104,11 +104,11 @@ Find a full list of publications, preprints, posters, and presentations at <a hr
 
 {% bibliography --file preprints %}
 
-### Presentations
+### Presentations<br/>(selected)
 
 {% bibliography --file presentations %}
 
-### Posters
+### Posters<br/>(selected)
 
 {% bibliography --file posters %}
 
