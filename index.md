@@ -9,9 +9,10 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont
 
 <div id="webaddress">
 <a href="mailto:me@williamrowell.dev"><i class="fa-solid fa-envelope"></i> me@williamrowell.dev</a> | <a href="https://www.linkedin.com/in/williamrowell"><i class="fa-brands fa-linkedin"></i> williamrowell</a><br/>
-<a href="https://twitter.com/nothingclever"><i class="fa-brands fa-twitter"></i> @nothingclever</a> | <a href="https://genomic.social/@williamrowell" rel="me" ><i class="fa-brands fa-mastodon"></i> @williamrowell@genomic.social</a><br/>
-<a href="https://github.com/williamrowell"><i class="fa-brands fa-github"></i> williamrowell</a> | <a href="https://orcid.org/0000-0002-7422-1194"><i class="ai ai-orcid-square"></i> 0000-0002-7422-1194</a><br/>
-<a href="https://scholar.google.com/citations?user=S8ixTQIAAAAJ"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> | <a href="https://www.biorxiv.org/search/author1%3AWilliam%2BJ%2BRowell"><i class="ai ai-biorxiv-square"></i> bioRxiv</a>
+<a href="https://twitter.com/nothingclever"><i class="fa-brands fa-twitter"></i> @nothingclever</a> | <a href="https://bsky.app/profile/williamrowell.dev"><i class="fa-brands fa-bluesky"></i> @williamrowell.dev</a><br/>
+<a href="https://genomic.social/@williamrowell" rel="me" ><i class="fa-brands fa-mastodon"></i> @williamrowell@genomic.social</a> | <a href="https://github.com/williamrowell"><i class="fa-brands fa-github"></i> williamrowell</a><br/>
+<a href="https://orcid.org/0000-0002-7422-1194"><i class="ai ai-orcid-square"></i> 0000-0002-7422-1194</a> | <a href="https://scholar.google.com/citations?user=S8ixTQIAAAAJ"><i class="ai ai-google-scholar-square"></i> Google Scholar</a><br/>
+<a href="https://www.biorxiv.org/search/author1%3AWilliam%2BJ%2BRowell"><i class="ai ai-biorxiv-square"></i> bioRxiv</a>
 </div>
 
 <p hidden>proven.lol/be04c7</p>
@@ -104,11 +105,11 @@ Find a full list of publications, preprints, posters, and presentations at <a hr
 
 {% bibliography --file preprints %}
 
-### Presentations<br/>(selected)
+### Presentations
 
 {% bibliography --file presentations %}
 
-### Posters<br/>(selected)
+### Posters
 
 {% bibliography --file posters %}
 
