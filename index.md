@@ -5,7 +5,7 @@ title: Billy Rowell
 
 ![Billy Rowell](/media/avatar.png){: style="float:right; padding-right:20px" width="20%" height="20%"}
 # Billy Rowell
-Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Fremont, CA
+Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Durham, NC
 
 <div id="webaddress">
 <a href="mailto:me@williamrowell.dev"><i class="fa-solid fa-envelope"></i> me@williamrowell.dev</a> | <a href="https://www.linkedin.com/in/williamrowell"><i class="fa-brands fa-linkedin"></i> williamrowell</a><br/>
