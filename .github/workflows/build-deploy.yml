@@ -14,7 +14,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Checkout
@@ -26,27 +26,59 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Playwright
+        run: |
+          npm install -g playwright
+          npx playwright install chromium
+
       - name: Build Jekyll
         run: bundle exec jekyll build
 
-      - name: Install Chromium
-        run: sudo apt-get install -y chromium-browser
-
-      - name: Generate resume PDF
+      - name: Generate PDFs
         run: |
-          chromium-browser --headless --no-sandbox --disable-gpu \
-            --print-to-pdf=resume.pdf \
-            --print-to-pdf-no-header \
-            "file://$GITHUB_WORKSPACE/_site/index.html"
-
-      - name: Generate CV PDF
-        run: |
+          # Create CV HTML variant (shows all bibliography sections in print)
           sed 's/davewhipp-print\.css/davewhipp-cv-print.css/' \
             _site/index.html > _site/index-cv.html
-          chromium-browser --headless --no-sandbox --disable-gpu \
-            --print-to-pdf=cv.pdf \
-            --print-to-pdf-no-header \
-            "file://$GITHUB_WORKSPACE/_site/index-cv.html"
+
+          # Serve the built site over HTTP so CDN fonts (Font Awesome,
+          # Academicons) load correctly — they are blocked on file:// URLs
+          python3 -m http.server 4000 --directory _site &
+          SERVER_PID=$!
+          until curl -s http://localhost:4000/ > /dev/null; do sleep 0.5; done
+
+          # Generate PDFs with Playwright:
+          #   - displayHeaderFooter: false  → no date/title/URL/page-number chrome
+          #   - waitUntil: networkidle      → wait for CDN fonts to finish loading
+          #   - macos runner                → Avenir font available, correct metrics
+          node - <<'EOF'
+          const { chromium } = require('playwright');
+          (async () => {
+            const browser = await chromium.launch();
+            const pdfOpts = {
+              format: 'Letter',
+              printBackground: false,
+              displayHeaderFooter: false,
+              margin: { top: '0.5in', right: '0.5in', bottom: '0.5in', left: '0.5in' }
+            };
+
+            const resumePage = await browser.newPage();
+            await resumePage.goto('http://localhost:4000/', { waitUntil: 'networkidle' });
+            await resumePage.pdf({ path: 'resume.pdf', ...pdfOpts });
+
+            const cvPage = await browser.newPage();
+            await cvPage.goto('http://localhost:4000/index-cv.html', { waitUntil: 'networkidle' });
+            await cvPage.pdf({ path: 'cv.pdf', ...pdfOpts });
+
+            await browser.close();
+          })();
+          EOF
+
+          kill $SERVER_PID
 
       - name: Push to WebDAV
         env:
