@@ -33,7 +33,7 @@ jobs:
 
       - name: Install Playwright
         run: |
-          npm install -g playwright
+          npm install playwright
           npx playwright install chromium
 
       - name: Build Jekyll
