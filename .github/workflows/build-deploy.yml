@@ -1,0 +1,73 @@
+name: Build and Deploy CV
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'index.md'
+      - '_bibliography/**'
+      - '_layouts/**'
+      - 'media/**'
+      - '_config.yml'
+      - 'Gemfile'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll
+        run: bundle exec jekyll build
+
+      - name: Install Chromium
+        run: sudo apt-get install -y chromium-browser
+
+      - name: Generate resume PDF
+        run: |
+          chromium-browser --headless --no-sandbox --disable-gpu \
+            --print-to-pdf=resume.pdf \
+            --print-to-pdf-no-header \
+            "file://$GITHUB_WORKSPACE/_site/index.html"
+
+      - name: Generate CV PDF
+        run: |
+          sed 's/davewhipp-print\.css/davewhipp-cv-print.css/' \
+            _site/index.html > _site/index-cv.html
+          chromium-browser --headless --no-sandbox --disable-gpu \
+            --print-to-pdf=cv.pdf \
+            --print-to-pdf-no-header \
+            "file://$GITHUB_WORKSPACE/_site/index-cv.html"
+
+      - name: Push to WebDAV
+        env:
+          WEBDAV_USER: ${{ secrets.WEBDAV_USER }}
+          WEBDAV_PASS: ${{ secrets.WEBDAV_PASS }}
+          WEBDAV_URL: ${{ secrets.WEBDAV_URL }}
+        run: |
+          # Ensure _bibliography/ directory exists on server
+          curl -sf -u "$WEBDAV_USER:$WEBDAV_PASS" \
+            -X MKCOL "$WEBDAV_URL/_bibliography/" || true
+
+          # Upload HTML and PDFs
+          curl -sf -u "$WEBDAV_USER:$WEBDAV_PASS" \
+            -T _site/index.html "$WEBDAV_URL/index.html"
+          curl -sf -u "$WEBDAV_USER:$WEBDAV_PASS" \
+            -T resume.pdf "$WEBDAV_URL/resume.pdf"
+          curl -sf -u "$WEBDAV_USER:$WEBDAV_PASS" \
+            -T cv.pdf "$WEBDAV_URL/cv.pdf"
+
+          # Upload bib files
+          for f in _bibliography/*.bib; do
+            curl -sf -u "$WEBDAV_USER:$WEBDAV_PASS" \
+              -T "$f" "$WEBDAV_URL/_bibliography/$(basename "$f")"
+          done
