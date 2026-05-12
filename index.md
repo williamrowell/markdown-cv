@@ -18,7 +18,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Durham,
 
 ## Summary
 
-Collaborative biological data scientist with over 25 years of research experience, including 10 years in genomics. Currently focused on variant calling applications and analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
+Collaborative biological data scientist with over 25 years of research experience, including 10 years in genomics. Currently focused on designing and building analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
 
 ## Skills
 
