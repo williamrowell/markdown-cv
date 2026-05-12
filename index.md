@@ -18,7 +18,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Durham,
 
 ## Summary
 
-Collaborative biological data scientist with over 20 years of research experience, including 9 years in genomics. Currently focused on variant calling applications and analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
+Collaborative biological data scientist with over 25 years of research experience, including 10 years in genomics. Currently focused on variant calling applications and analysis workflows for long-read sequencing data. Practical experience in genomics, human and model organism genetics, and molecular biology.
 
 ## Skills
 
@@ -28,7 +28,7 @@ NGS/long-read sequencing and QC · WGS/WES/targeted sequencing · NGS/long-read 
 
 ### Computational
 
-reproducible analysis with WDL/Snakemake · containerization with Docker/Singularity · Python/NumPy/pandas/Matplotlib · HPC/Slurm · Bash/Git · samtools/bedtools/bcftools · image acquisition and analysis
+reproducible analysis with WDL/Snakemake · containerization with Docker/Singularity · Python/NumPy/pandas/Matplotlib · HPC/Slurm · Bash/Git · agentic development · samtools/bedtools/bcftools · image acquisition and analysis
 
 ### Professional
 
@@ -41,13 +41,14 @@ mentor and team leader · collaborative scientist · strong problem solver · ef
 `February 2017 - Present`
 __[Pacific Biosciences](https://www.pacb.com)__, *Menlo Park, CA*
 
-Senior Staff Bioinformatics Scientist, *June 2022 - Present*<br/>
-Staff Bioinformatics Scientist, *March 2020 - May 2022*<br/>
-Senior Bioinformatics Scientist, *February 2017 - February 2020*<br/>
+Senior Staff Scientist and Bioinformatics Applications Lab Manager *April 2025 - Present*<br/>
+Senior Staff Scientist, Computational Biology *June 2022 - April 2025*<br/>
+Staff Scientist, Bioinformatics Applications Lab *March 2020 - May 2022*<br/>
+Senior Scientist, Bioinformatics Applications Lab *February 2017 - February 2020*<br/>
 
 - Lead a small team focused on developing, improving, and applying analysis workflows to characterize genomics data.
 - Developed and released HPC/multi-cloud workflows for variant calling, filtering, annotation, and prioritization for rare and inherited disease studies ([HiFi-human-WGS-WDL](https://github.com/PacificBiosciences/HiFi-human-WGS-WDL), [pb-human-wgs-workflow-snakemake](https://github.com/PacificBiosciences/pb-human-wgs-workflow-snakemake), [HiFi-human-assembly-WDL](https://github.com/PacificBiosciences/HiFi-human-assembly-WDL)).
-- Worked alongside customers to apply long-read sequencing to rare disease research and identify candidate variation {% cite DelGobbo2023AJMGa --file publications %}, {% cite Mehinovic2022AJMGa --file publications %}, {% cite Cohen2022GenetMed --file publications %}, {% cite Laine2021PLOSONE --file publications %}, {% cite Cook2020PLOSONE --file publications %}, {% cite Tseng2019FrontGene --file publications %}, {% cite Cheung2023NatComm --file publications %}, {% cite Kucuk2023GenomMed --file publications %}, {% cite fabianmorales2025resolving-288 --file publications %}, {% cite Redfield2024bioRxiv --file preprints %}.
+- Worked alongside customers to apply long-read sequencing to rare disease research and identify candidate variation {% cite DelGobbo2023AJMGa --file publications %}, {% cite Mehinovic2022AJMGa --file publications %}, {% cite Cohen2022GenetMed --file publications %}, {% cite Laine2021PLOSONE --file publications %}, {% cite Tseng2019FrontGene --file publications %}, {% cite Cheung2023NatComm --file publications %}, {% cite Kucuk2023GenomMed --file publications %}, {% cite fabianmorales2025resolving-288 --file publications %}, {% cite Redfield2024bioRxiv --file preprints %}, {% cite DEVANEY2026 --file publications %}, {% cite Monlong2025.02.07.25321404 --file preprints %}.
 - Worked with academic collaborators and within the [NIST Genome in a Bottle consortium](https://www.nist.gov/programs-projects/genome-bottle) to improve human variant calling benchmarks {% cite Kronenberg2025 --file publications %}, {% cite Porubsky2025 --file publications.bib %}, {% cite Wagner2022NatBiotech --file publications %}, including in MHC {% cite Chin2020NatComm --file publications %}, and other challenging medically relevant regions {% cite Wagner2022CellGenom --file publications %}.
 - Through collaborations, guided the development and improvement of tools and applications for long-read sequencing data, e.g., HiFi WGS {% cite Wenger2019NatBiotech --file publications %}, TRGT {% cite Dolzhenko2024NatBiotech --file publications %}, HiPhase {% cite Holt2024Bioinformatics --file publications %}, DeepConsensus {% cite Baid2022NatBiotech --file publications %}, {% cite Belyaeva2022NeurIPS --file preprints %},  DNAscope LongRead {% cite Freed2022bioRxiv --file preprints %}, Sawfish {% cite Saunders2025 --file publications %} and PGx analysis {% cite vanderLee2022PGxJ --file publications %}.
 - Support commercial teams by leveraging pilot experiments into sales and collateral.
