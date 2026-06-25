@@ -105,6 +105,10 @@ Find a full list of publications, preprints, posters, and presentations at <a hr
 
 {% bibliography --file preprints %}
 
+### Patent Applications
+
+{% bibliography --file patents %}
+
 ### Presentations
 
 {% bibliography --file presentations %}
