@@ -15,6 +15,7 @@ Bioinformatics Data Scientist <i class="fa-solid fa-map-marker-alt"></i> Durham,
 </div>
 
 <p hidden>proven.lol/be04c7</p>
+<script src="https://neatstats.net/view.js"></script>
 
 ## Summary
 
